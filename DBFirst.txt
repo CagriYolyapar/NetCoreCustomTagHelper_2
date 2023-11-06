@@ -1,0 +1,1 @@
+Scaffold-DbContext "Server = . ; database = Northwind ; integrated security = true; TrustServerCertificate = true" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models/Entities -context NorthwindContext -ContextDir Models/ContextClasses -tables Products,Categories,Orders,OrderDetails,Customers,Employees
